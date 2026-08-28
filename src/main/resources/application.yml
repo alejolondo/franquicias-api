@@ -4,13 +4,12 @@ server:
 spring:
   application:
     name: franquicias-api
+  mongodb:
+    uri: ${MONGO_URI:mongodb://localhost:27017}
+    database: ${MONGO_DATABASE:franquicias}
   data:
     mongodb:
       auto-index-creation: true
-  mongodb:
-    database: ${MONGO_DATABASE:franquicias}
-    uri: ${MONGO_URI:mongodb://localhost:27017}
-
 management:
   endpoints:
     web:
@@ -19,4 +18,4 @@ management:
 
 logging:
   level:
-    com.franquicias.api: ${LOG_LEVEL:INFO}
+    "[com.franquicias.api]": ${LOG_LEVEL:INFO}
