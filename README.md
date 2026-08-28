@@ -2,9 +2,10 @@
 
 API REST reactiva para la gestión de franquicias, sus sucursales y los productos ofertados en cada una. Construida con Spring Boot WebFlux, arquitectura limpia y persistencia en MongoDB este ultimo desplegado en MongoAtlas.
 
-**Aplicación desplegada:** http://3.214.81.52:8080
+**Aplicación desplegada en instancia de AWS:** http://3.214.81.52:8080  
 
 
+Proyecto de prueba técnica
 
 ---
 
