@@ -176,8 +176,7 @@ Endpoints operativos:
 | Método | Ruta | Descripción |
 |---|---|---|
 | GET | `/actuator/health` | Estado de la aplicación |
-| GET | `/v3/api-docs` | Especificación OpenAPI |
-| GET | `/webjars/swagger-ui/index.html` | Documentación interactiva |
+
 
 ### Ejemplos
 
