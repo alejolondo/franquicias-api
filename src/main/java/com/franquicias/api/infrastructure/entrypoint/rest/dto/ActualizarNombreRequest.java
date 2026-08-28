@@ -2,13 +2,13 @@ package com.franquicias.api.infrastructure.entrypoint.rest.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-import lombok.Builder;
-import lombok.Value;
-import lombok.extern.jackson.Jacksonized;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Value
-@Builder
-@Jacksonized
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class ActualizarNombreRequest {
 
     @NotBlank(message = "El nombre es obligatorio")
