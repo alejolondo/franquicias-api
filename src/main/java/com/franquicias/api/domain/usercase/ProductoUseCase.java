@@ -1,4 +1,4 @@
-package com.franquicias.api.usecase;
+package com.franquicias.api.domain.usercase;
 import java.util.function.UnaryOperator;
 
 import com.franquicias.api.domain.exception.FranquiciaNotFoundException;

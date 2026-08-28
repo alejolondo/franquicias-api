@@ -1,4 +1,4 @@
-package com.franquicias.api.usecase;
+package com.franquicias.api.domain.usercase;
 
 import com.franquicias.api.domain.exception.FranquiciaNotFoundException;
 import com.franquicias.api.domain.exception.SucursalNotFoundException;

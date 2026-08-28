@@ -5,12 +5,12 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
+import com.franquicias.api.domain.usercase.ProductoUseCase;
 import com.franquicias.api.infrastructure.entrypoint.rest.dto.ActualizarNombreRequest;
 import com.franquicias.api.infrastructure.entrypoint.rest.dto.ActualizarStockRequest;
 import com.franquicias.api.infrastructure.entrypoint.rest.dto.CrearProductoRequest;
 import com.franquicias.api.infrastructure.entrypoint.rest.mapper.RequestValidator;
 import com.franquicias.api.infrastructure.entrypoint.rest.mapper.RestMapper;
-import com.franquicias.api.usecase.ProductoUseCase;
 
 import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Mono;

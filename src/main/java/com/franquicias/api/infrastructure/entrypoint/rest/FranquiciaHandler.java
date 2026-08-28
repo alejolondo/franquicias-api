@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
+import com.franquicias.api.domain.usercase.FranquiciaUseCase;
 import com.franquicias.api.infrastructure.entrypoint.rest.dto.ActualizarNombreRequest;
 import com.franquicias.api.infrastructure.entrypoint.rest.dto.CrearFranquiciaRequest;
 import com.franquicias.api.infrastructure.entrypoint.rest.mapper.RequestValidator;
 import com.franquicias.api.infrastructure.entrypoint.rest.mapper.RestMapper;
-import com.franquicias.api.usecase.FranquiciaUseCase;
 
 import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Mono;

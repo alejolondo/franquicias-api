@@ -4,9 +4,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import com.franquicias.api.domain.gateway.FranquiciaRepository;
-import com.franquicias.api.usecase.FranquiciaUseCase;
-import com.franquicias.api.usecase.ProductoUseCase;
-import com.franquicias.api.usecase.SucursalUseCase;
+import com.franquicias.api.domain.usercase.FranquiciaUseCase;
+import com.franquicias.api.domain.usercase.ProductoUseCase;
+import com.franquicias.api.domain.usercase.SucursalUseCase;
 
 @Configuration
 public class UseCaseConfig {
